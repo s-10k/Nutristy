@@ -1,0 +1,72 @@
+
+<% include ../partials/header %>
+
+<div class="row justify-content-center">
+<!--  <div class="col-md-3">-->
+<!--    <p class="lead">Nutristy</p>-->
+<!--    <div class="list-group">-->
+<!--      <li class="list-group-item active">Info 1</li>-->
+<!--      <li class="list-group-item">Info 2</li>-->
+<!--      <li class="list-group-item">Info 3</li>-->
+<!--    </div>-->
+<!--  </div>-->
+  <div class="col-md-9">
+    <div class="card-mb-3">
+      <img
+        class="card-img-top"
+        src="<%= recipe.image %>"
+        alt="<%= recipe.name %>"
+        height= "500"
+        width= "500"
+      />
+      <style>
+    .card-img-top {
+        position: relative;
+        min-height: 100%;
+        min-width: 100%;
+    }</style>
+      <div class="card-body bg-card-show">
+        <p class="float-right"><b>Calorie count</b>:<% var sum=0 %><% for(var j = 0, len= recipe.ingredients.length;j< len;j++){ %>
+          <% sum=sum+recipe.ingredients[j].cal %>
+          <% }; %><%= sum %> Cal.<br>
+          <b>Serving</b>: <%= recipe.Serving %></p> 
+        <h2 class="card-title"><%= recipe.name %></h2>
+        <h5><%= recipe.Type %></h5>
+        <p class="card-text">
+        <b>Ingredients</b> 
+          <ul>
+            <% for(var i = 0, len= recipe.ingredients.length;i< len;i++){ %>
+              <li> <%= recipe.ingredients[i].n %> <%= recipe.ingredients[i].meas %></li> <I><%= recipe.ingredients[i].note %></I><br>
+              
+           <% }; %>
+          </ul> </p>
+        <b>Steps</b>  
+          <ol>
+            <% for(var j = 0, len= recipe.Steps.length;j< len;j++){ %>
+              <li><%= recipe.Steps[j].desc %></li>
+           <% }; %>
+          </ol> </p> 
+        <b>Allergens</b>
+        <ul>
+          <% var len= recipe.Allergen.length %>
+          <% if(len>0){ %>
+          <% for(var j = 0;j< len;j++){%>
+            <li><%= recipe.Allergen[j].type %></li> <% }} else {%>
+              <p>None</p>
+         <% }; %>
+        </ul> 
+        <% if(currentUser){ %>
+        <a href="/cartindex/<%= recipe.rid %>" class="btn btn-outline-success">Add to cart</a><br><br>
+        <% } else { %>
+        <a href="/login" class="btn btn-outline-success">Add to cart</a><br><br>
+        
+        <% } %>
+
+      </p>         
+          </br>        
+      </div>
+    </div>
+    </div>
+</div>
+<% include ../partials/footer %>
+

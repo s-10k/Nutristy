@@ -1,0 +1,177 @@
+[{
+  
+    "product_id": 3,
+    "id": "003",
+    "title": "Fusili pasta",
+    "description": "Durum wheat pasta",
+    "manufacturer": "Happy chef",
+    "price": 95,
+    "image": "https://pixabay.com/get/54e7d04b4b54b10ff3d89960c62e37781639d9e65156_640.jpg",
+    "qty": 500,
+    "unit": "gm"
+  },{
+    
+    "product_id": 4,
+    "id": "004",
+    "title": "Tomatoes",
+    "description": "Local, Organically Grown",
+    "manufacturer": "Fresho",
+    "price": 10,
+    "image": "https://pixabay.com/get/52e2d64b4856ab14f1dc8460da29317e133cd8e2575876_640.jpg",
+    "qty": 500,
+    "unit": "gm"
+  },{
+    
+    "product_id": 5,
+    "id": "005",
+    "title": "Green Onion",
+    "description": "",
+    "manufacturer": "Fresho",
+    "price": 13,
+    "image": "https://pixabay.com/get/55e6d24b4350ad14f1dc8460da29317e133cd8ed535072_640.png",
+    "qty": 100,
+    "unit": "gm"
+  },{
+    
+    "product_id": 6,
+    "id": "006",
+    "title": "Himalayan pink salt",
+    "description": "net Wt. 1kg",
+    "manufacturer": "Finom",
+    "price": 89,
+    "image": "https://5.imimg.com/data5/HI/HH/MY-7778582/finom-himalayan-salt-500x500.jpg",
+    "qty": 1,
+    "unit": "kg"
+  },{
+    
+    "product_id": 7,
+    "id": "007",
+    "title": "Radishes",
+    "description": "Organically grown",
+    "manufacturer": "Fresho",
+    "price": 26,
+    "image": "https://pixabay.com/get/50e9d341425ab10ff3d89960c62e37781639d7e45353_640.jpg",
+    "qty": 500,
+    "unit": "gm"
+  },{
+    
+    "product_id": 8,
+    "id": "008",
+    "title": "Unsalted Butter",
+    "description": "unsalted",
+    "manufacturer": "Amul",
+    "price": 49,
+    "image": "https://image.shutterstock.com/image-photo/jaipur-india-05-january-2020-600w-1606331581.jpg",
+    "qty": 100,
+    "unit": "gm"
+  },{
+    
+    "product_id": 9,
+    "id": "009",
+    "title": "Sesame Oil",
+    "description": "Cold pressed",
+    "manufacturer": "",
+    "price": 88,
+    "image": "https://5.imimg.com/data5/BL/OO/PP/SELLER-11092660/cold-pressed-white-sesame-oil-500x500.png",
+    "qty": 200,
+    "unit": "ml"
+  },{
+    
+    "product_id": 10,
+    "id": "010",
+    "title": "Lemon",
+    "description": "",
+    "manufacturer": "",
+    "price": 18,
+    "image": "https://pixabay.com/get/57e2d64a4854ab14f1dc8460da29317e133cd8ec555875_640.jpg",
+    "qty": 250,
+    "unit": "gm"
+  },{
+    
+    "product_id": 11,
+    "id": "011",
+    "title": "Whole Wheat Flour",
+    "description": "Organic",
+    "manufacturer": "",
+    "price": 51,
+    "image": "https://5.imimg.com/data5/KC/UD/MY-6339954/wheat-flour-chakki-atta-500x500.jpg",
+    "qty": 1,
+    "unit": "kg"
+  },{
+    
+    "product_id": 12,
+    "id": "012",
+    "title": "Oatmeal Flour",
+    "description": "",
+    "manufacturer": "Bobsred mill",
+    "price": 270,
+    "image": "https://www.bobsredmill.com/media/catalog/product/cache/8646dbe0b50cb9bce8e481734e0f2ffe/1/9/1984s184_glutenfree_oatflour_f_3.jpg",
+    "qty": 1,
+    "unit": "kg"
+  },{
+    
+    "product_id": 13,
+    "id": "013",
+    "title": "Bananas",
+    "description": "",
+    "manufacturer": "",
+    "price": 79,
+    "image": "https://pixabay.com/get/54e4d14a4a53a514f1dc8460da29317e133cd9e2545478_640.jpg",
+    "qty": 1,
+    "unit": "kg"
+  },{
+    
+    "product_id": 14,
+    "id": "014",
+    "title": "Dark Brown Sugar",
+    "description": "",
+    "manufacturer": "",
+    "price": 75,
+    "image": "https://pixabay.com/get/57e3d0474d5aab14f1dc8460da29317e133cd9e25b5779_640.jpg",
+    "qty": 1,
+    "unit": "kg"
+  },{
+    
+    "product_id": 15,
+    "id": "015",
+    "title": "Olive Oil",
+    "description": "Extra virgin olive oil",
+    "manufacturer": "Borges",
+    "price": 656,
+    "image": "https://pixabay.com/get/5fe6dd454f55b10ff3d89960c62e37781638d9ec5a51_640.jpg",
+    "qty": 1,
+    "unit": "Litre"
+  },{
+    
+    "product_id": 16,
+    "id": "016",
+    "title": "Egg",
+    "description": "Farm eggs, Antibiotic Residue-free",
+    "manufacturer": "Fresho",
+    "price": 84,
+    "image": "https://pixabay.com/get/55e1dd404e53ac14f1dc8460da29317e133cd6e7515978_640.jpg",
+    "qty": 12,
+    "unit": "pcs"
+  },{
+    
+    "product_id": 17,
+    "id": "017",
+    "title": "Baking Powder",
+    "description": "",
+    "manufacturer": "Weikfield",
+    "price": 20,
+    "image": "https://5.imimg.com/data5/GI/HE/IS/SELLER-5611626/100gm-baking-powder-500x500.jpg",
+    "qty": 50,
+    "unit": "g bottle"
+  },{
+    
+    "product_id": 18,
+    "id": "018",
+    "title": "Walnuts",
+    "description": "",
+    "manufacturer": "",
+    "price": 170,
+    "image": "https://pixabay.com/get/55e8d24a4b56ae14f1dc8460da29317e133cd6e7565776_640.jpg",
+    "qty": 100,
+    "unit": "g"
+  }]
