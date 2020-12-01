@@ -46,9 +46,9 @@ router.post("/register", function(req, res) {
           host: "smtp.mailtrap.io",
           port: 2525,
           auth: {
-            user: "4552d059f259fd",
-            pass: "2279c82b99e75e"
-          }
+            user: "",
+            pass: ""
+          } // add your mailtrap.io credentials here for testing 
         });
         var mailOptions = {
           to: newUser.email,
@@ -152,8 +152,8 @@ router.post("/forgot", function(req, res, next) {
           host: "smtp.mailtrap.io",
           port: 2525,
           auth: {
-            user: "4552d059f259fd",
-            pass: "2279c82b99e75e"
+            user: "",
+            pass: ""
           }
         });
         var mailOptions = {
@@ -270,8 +270,8 @@ router.post("/reset/:token", function(req, res) {
           host: "smtp.mailtrap.io",
           port: 2525,
           auth: {
-            user: "4552d059f259fd",
-            pass: "2279c82b99e75e"
+            user: "",
+            pass: ""
           }
         });
         var mailOptions = {
