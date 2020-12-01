@@ -18,16 +18,6 @@ var imageFilter = function(req, file, cb) {
 };
  var upload = multer({ storage: storage, fileFilter: imageFilter });
 
-var cloudinary = require("cloudinary");
-cloudinary.config({
-  // cloud_name: process.env.CLOUDINARY_NAME,
-  // api_key: process.env.CLOUDINARY_API_KEY,
-  // api_secret: process.env.CLOUDINARY_API_SECRET
-  cloud_name: 'sk002', 
-  api_key: '335148348169187',
-  api_secret: 'Sfsa5Xa-hvS4cpKOF1x-tEBWVGc'
-  
-});
 
 // INDEX - show all recipes
 router.get("/", function(req, res){
