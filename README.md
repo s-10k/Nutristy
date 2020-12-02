@@ -10,9 +10,9 @@ Tools used:
 2. MongoDB
 3. HTML, CSS
 
-(1. Nodemailer is implemented for user registration and forget password, using mailtrap.io)
-(2. Cloudinary can be used if image hosting is required)
-(3. Chat uses socket.io)
+1. Nodemailer is implemented for user registration and forget password, using mailtrap.io
+2. Cloudinary can be used if image hosting is required)
+3. Chat uses socket.io
 
 
 
